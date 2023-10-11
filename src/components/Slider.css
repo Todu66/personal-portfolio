@@ -1,20 +1,12 @@
-/* Slider.css */
-.slick-prev,
-.slick-next {
+.slick-arrow {
   font-size: 24px;
-  color: #000;
+  color: white;
 }
 
-.slick-prev:hover,
-.slick-next:hover {
-  color: #ff4500;
+.slick-prev {
+  left: 10px;
 }
 
-.slick-dots li button:before {
-  font-size: 12px;
-  color: #000;
-}
-
-.slick-dots li.slick-active button:before {
-  color: #ff4500;
+.slick-next {
+  right: 10px;
 }
