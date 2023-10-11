@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import ReactTyped from "react-typed";
 import '@fortawesome/fontawesome-free/css/all.min.css'; // Import the Font Awesome CSS
 import Slider from "./Slider"
+
 // --lightest-slate: #ccd6f6;
 // green: [#64ffda]
 
@@ -18,7 +19,7 @@ export const About = () => {
   // }, []);
   // className={`text-smooth-appear ${isVisible ? 'active' : ''}`}
   return (
-    <div>
+    <div className='min-h-screen'>
       
         <h2 className='text-[#ccd6f6] font-bold text-4xl'>Giga Todua</h2>
         <h2 className='text-[#ccd6f6] font-medium text-3xl mt-2'>Front End React Developer</h2>
@@ -42,10 +43,15 @@ export const About = () => {
         </div>
         {/* about me */}
         <div className='flex flex-col text-[#AAAAAA] font-medium mt-10 gap-5'>
-          <p className={`text-[#E6E6E6] uppercase textc text-smooth-appear `}>About</p>
+          <p className="text-[#E6E6E6] uppercase ">About</p>
           <h3> Hey there! 👋 I'm Giga Todua, a web enthusiast who caught the coding bug at 15. I started my journey with HTML, CSS, and JavaScript through <a className=' text-[#E6E6E6] hover:text-[#64ffda] font-bold duration-150 ease-in-out' href='https://www.udemy.com/?matchtype=e' target='_blank'>Udemy</a>. After countless hours of practice, I leaped into React and Tailwind CSS, mastering them on <a className='text-[#E6E6E6] hover:text-[#64ffda] font-bold duration-150 ease-in-out' href='https://www.codecademy.com/learn'  target='_blank'>Codecademy</a> . Now, at 17, I'm passionate about crafting seamless web experiences. Join me in exploring the endless possibilities of the digital world!</h3>
         </div>
         <Slider />
+        {/* <div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quas architecto repellat culpa! Facere nisi nobis ex eius voluptas quas dignissimos numquam, ullam alias? Beatae adipisci maiores ratione quo earum!
+          </p>
+        </div> */}
     </div>
   )
 }
