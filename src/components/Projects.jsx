@@ -19,8 +19,8 @@ export const Projects = () => {
                 
     
             </div>
-            <p className='text-[#AAAAAA]'>Discover the power of Spotify API integration with this ReactJS project. This application allows you to seamlessly log in to your Spotify account, search for music, and efficiently manage your playlists. Enjoy the convenience of adding and removing songs from your playlists, all within a user-friendly ReactJS environment. Embark on a musical journey like never before with this practical Spotify API project!</p>
-            <div className='w-50 border-solid border-2 border-[#B8B8B8] rounded'>
+            <p className='text-[#AAAAAA]'>Discover the power of Spotify API integration with this ReactJS project. This application allows you to seamlessly log in to your Spotify account, search for music, and add to your playlist!</p>
+            <div className='w-50 border-solid border-2 border-[#64ffda] rounded'>
                 <a href='https://jamming-react-todu.surge.sh/' target='_blank'>
                 <img className='' src={spotifyApp}/>
                 </a>
