@@ -13,3 +13,18 @@
   transform: translateY(0);
 }
 
+.hover\:shadow-hover:hover {
+  box-shadow: 4px 4px 0 0 #64ffda
+}
+
+
+
+
+
+.rotate-icon {
+  transition: transform 0.3s ease;
+}
+
+.rotate-icon.rotate-reverse {
+  transform: rotate(-90deg);
+}
