@@ -4,7 +4,6 @@ import { menuOutline } from "ionicons/icons";
 import { closeOutline } from "ionicons/icons";
 import { IonIcon } from "@ionic/react";
 
-
 export const Header = () => {
   const [nav, setNav] = useState(false);
   const [rotateMenuIcon, setRotateMenuIcon] = useState(false);
@@ -21,12 +20,12 @@ export const Header = () => {
       </div>
 
       <div onClick={handleNavToggle} className="cursor-pointer z-20">
-      <IonIcon
-  className={`text-[#64ffda] text-[45px] rotate-icon ${
-    rotateMenuIcon ? "rotate-reverse" : ""
-  }`}
-  icon={nav ? closeOutline : menuOutline}
-/>
+        <IonIcon
+          className={`text-[#64ffda] text-[45px] rotate-icon ${
+            rotateMenuIcon ? "rotate-reverse" : ""
+          }`}
+          icon={nav ? closeOutline : menuOutline}
+        />
       </div>
 
       {nav && (
@@ -56,10 +55,7 @@ export const Header = () => {
           <h2 className="hover:text-[#64ffda] cursor-pointer">Projects</h2>
           <h2 className="hover:text-[#64ffda] cursor-pointer">Contact</h2>
           {/* {`px-4 py-2 border-solid border border-[#64ffda] rounded transition-all duration-250 ease-cubic hover:shadow-hover hover:translate-x-[-5px] hover:translate-y-[-5px]`} */}
-          <button
-            
-            className=" px-4 py-2 w-[80%] mx-auto border-solid border border-[#64ffda] text-[#64ffda] rounded transition-all duration-250 ease-cubic hover:shadow-hover hover:translate-x-[-5px] hover:translate-y-[-5px]"
-          >
+          <button className=" px-4 py-2 w-[80%] mx-auto border-solid border border-[#64ffda] text-[#64ffda] rounded transition-all duration-250 ease-cubic hover:shadow-hover hover:translate-x-[-5px] hover:translate-y-[-5px]">
             Resume
             <span className="ml-2">
               <i className="fa-solid fa-download text-[18px]"></i>
