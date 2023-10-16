@@ -26,11 +26,8 @@ export const About = () => {
     <div className="min-h-screen">
       <div className="h-screen flex flex-col w-full justify-center gap-1">
         <h2 className="text-[#ccd6f6] font-bold text-4xl">
-          
-      <ReactTyped
-            strings={[
-              "Giga Todua"
-            ]}
+          <ReactTyped
+            strings={["Giga Todua"]}
             typeSpeed={90}
             loop
             backSpeed={50}
@@ -42,9 +39,7 @@ export const About = () => {
           Front End React Developer
         </h2>
         {/* auto typer */}
-        <h2 className="text-[#ccd6f6] text-[17px] mt-3">
-
-        </h2>
+        <h2 className="text-[#ccd6f6] text-[17px] mt-3"></h2>
         {/* social icobns */}
         <div className="flex flex-row gap-4 mt-4 ">
           <i className="fab fa-github text-[#c7cdd6] text-[25px] hover:text-[#64ffda] cursor-pointer duration-150 ease-in-out"></i>
@@ -94,6 +89,31 @@ export const About = () => {
           . Now, at 17, I'm passionate about crafting seamless web experiences.
           Join me in exploring the endless possibilities of the digital world!
         </h3>
+      </div>
+      <div>
+        <h2 className="text-[#AAAAAA] mt-5">here are few technologies i've been working with recently</h2>
+        <div className="flex flex-wrap gap-5 text-[#AAAAAA] mt-3">
+          <div className="flex items-center">
+            <i className="fas fa-circle text-[#64ffda] text-xs mr-2"></i>
+            <p>React</p>
+          </div>
+          <div className="flex items-center">
+            <i className="fas fa-circle text-[#64ffda] text-xs mr-2"></i>
+            <p>JavaScript</p>
+          </div>
+          <div className="flex items-center">
+            <i className="fas fa-circle text-[#64ffda] text-xs mr-2"></i>
+            <p>TypeScript</p>
+          </div>
+          <div className="flex items-center">
+            <i className="fas fa-circle text-[#64ffda] text-xs mr-2"></i>
+            <p>Git</p>
+          </div>
+          <div className="flex items-center">
+            <i className="fas fa-circle text-[#64ffda] text-xs mr-2"></i>
+            <p>Tailwind</p>
+          </div>
+        </div>
       </div>
       <Slider />
       {/* <div>
